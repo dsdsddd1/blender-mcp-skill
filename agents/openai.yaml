@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Manual"
+  short_description: "Use official Blender docs and MCP introspection."
+  default_prompt: "Use Blender Manual to answer Blender API, Geometry Nodes, and scene-inspection questions from official docs and the active Blender session."
