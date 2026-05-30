@@ -57,7 +57,7 @@ The code runs inside Blender and must set `result` to a JSON-serializable dict.
 Use the bundled script when available:
 
 ```powershell
-python C:\Users\dsdsd\.codex\skills\blender-manual\scripts\blender_mcp_exec.py --code "result={'ok': True}"
+python scripts/blender_mcp_exec.py --code "result={'ok': True}"
 ```
 
 Use MCP for:
@@ -81,7 +81,7 @@ For Geometry Nodes tasks:
 - Use `Capture Attribute` with Blender 5.1's `capture_items` API when dynamic capture sockets are required.
 - For scattering, distinguish random surface scatter from regular layout:
   - Pebbles/grass: `Distribute Points on Faces -> Instance on Points`.
-  - Roof shingles/tiles: local grid/UV sampling, captured normals, row/column control.
+  - Regular tiles/panels: local grid/UV sampling, captured normals, row/column control.
 
 For node-specific notes, read [references/geometry-nodes.md](references/geometry-nodes.md).
 
