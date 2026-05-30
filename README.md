@@ -28,6 +28,7 @@ The skill prefers three evidence levels:
 - `references/mcp-snippets.md`: Reusable Blender MCP Python snippets.
 - `scripts/blender_mcp_exec.py`: Execute Python in Blender through the official MCP socket.
 - `scripts/fetch_blender_doc.py`: Fetch and summarize official Blender documentation pages.
+- `examples/wood-shingles-http-bridge/`: Example Blender add-on showing a local HTTP bridge that drives a procedural Geometry Nodes setup.
 
 ### Example Usage
 
@@ -75,6 +76,7 @@ The official Blender MCP server can execute generated Python code inside Blender
 - `references/mcp-snippets.md`：常用 Blender MCP Python 片段。
 - `scripts/blender_mcp_exec.py`：通过官方 MCP socket 在 Blender 里执行 Python。
 - `scripts/fetch_blender_doc.py`：抓取并摘要 Blender 官方文档页面。
+- `examples/wood-shingles-http-bridge/`：一个示例 Blender 插件，演示本地 HTTP 桥接如何驱动程序化 Geometry Nodes。
 
 ### 使用示例
 
