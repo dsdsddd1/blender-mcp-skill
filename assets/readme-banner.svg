@@ -1,0 +1,55 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Blender MCP Skill</title>
+  <desc id="desc">A dark banner for a Codex skill that combines official Blender docs, Blender MCP, and Geometry Nodes workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101820"/>
+      <stop offset="0.52" stop-color="#151A28"/>
+      <stop offset="1" stop-color="#07131D"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="168" y1="104" x2="368" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB14A"/>
+      <stop offset="0.45" stop-color="#FF7A1A"/>
+      <stop offset="1" stop-color="#E84A27"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="899" y1="138" x2="1094" y2="279" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#75D6FF"/>
+      <stop offset="1" stop-color="#5178FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <path d="M0 332C143 290 228 359 375 317C528 273 549 160 725 146C879 134 1000 202 1280 128V420H0V332Z" fill="#0B2430" opacity="0.82"/>
+  <path d="M956 74C1017 68 1082 83 1146 119C1209 154 1251 197 1280 232V0H958C932 26 931 56 956 74Z" fill="#17324A" opacity="0.55"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M247 101C194 101 151 141 151 190C151 240 194 280 247 280C299 280 342 240 342 190C342 141 299 101 247 101ZM247 229C224 229 205 212 205 190C205 169 224 151 247 151C270 151 288 169 288 190C288 212 270 229 247 229Z" fill="url(#orange)"/>
+    <path d="M304 111C351 97 398 116 416 154C435 194 415 240 370 258C360 264 349 268 338 270L303 224C323 223 343 212 350 195C359 173 347 151 325 143L304 111Z" fill="url(#orange)"/>
+    <path d="M198 265C154 251 122 218 112 177C101 131 119 84 157 56L194 101C175 117 166 140 171 164C176 190 197 211 226 220L198 265Z" fill="url(#orange)"/>
+    <circle cx="247" cy="190" r="27" fill="#0D1720"/>
+    <circle cx="247" cy="190" r="13" fill="#66C8FF"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="792" y="126" width="330" height="174" rx="22" fill="#0B1118" stroke="#2B4763" stroke-width="2"/>
+    <path d="M847 179H1015" stroke="url(#blue)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M847 224H1080" stroke="#FF7A1A" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="846" cy="271" r="9" fill="#75D6FF"/>
+    <circle cx="881" cy="271" r="9" fill="#FFB14A"/>
+    <circle cx="916" cy="271" r="9" fill="#6FE3A1"/>
+  </g>
+
+  <text x="472" y="168" fill="#F7FAFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="0">Blender MCP Skill</text>
+  <text x="475" y="220" fill="#BFD4E8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="0">Official docs first. Live Blender introspection. Geometry Nodes with fewer guesses.</text>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0">
+    <rect x="476" y="258" width="155" height="42" rx="7" fill="#263545"/>
+    <text x="497" y="286" fill="#DDEBFA">Codex Skill</text>
+    <rect x="646" y="258" width="143" height="42" rx="7" fill="#214057"/>
+    <text x="669" y="286" fill="#DDEBFA">Blender MCP</text>
+    <rect x="804" y="258" width="168" height="42" rx="7" fill="#57341D"/>
+    <text x="826" y="286" fill="#FFE4CF">Geometry Nodes</text>
+  </g>
+</svg>
