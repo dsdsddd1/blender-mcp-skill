@@ -41,7 +41,7 @@ Distribute Points on Faces
 -> Instance on Points
 ```
 
-Regular shingles/tiles:
+Regular tiles/panels:
 
 ```text
 local grid or UV grid
@@ -51,13 +51,13 @@ local grid or UV grid
 -> Instance on Points with captured normal rotation
 ```
 
-For multi-face shingles, avoid one global UV/grid across multiple roof faces. Prefer face/island-local branches.
+For multi-face tiled layouts, avoid one global UV/grid across multiple faces. Prefer face/island-local branches.
 
-## Known Shingle Lessons
+## Known Regular Layout Checks
 
-- If only a few shingles align to a slope, check whether `Position` was used as UV after `Set Position`.
+- If only a few instances align to a slope, check whether `Position` was used as UV after `Set Position`.
 - If changing density leaves one or two tiles, inspect whether auto row/column math collapsed to `1 x 1`.
-- Area-ratio scaling is more robust than world-axis bounding-box scaling for sloped/triangular roof faces:
+- Area-ratio scaling is more robust than world-axis bounding-box scaling for sloped/triangular faces:
 
 ```text
 scale = sqrt(branch_area / total_roof_area)
